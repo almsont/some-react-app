@@ -1,0 +1,97 @@
+
+.card {
+    margin-top: 10px;;
+    position: relative;
+    width: 100%;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.1);
+    opacity: 1;
+    margin-bottom: 10px;
+}
+
+/* Profile picture */
+
+.profile-pic {
+    height: 150px;
+    width: 150px;
+    background-image: url('profile-pic.png');
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.profile-pic-wrapper {
+    padding-bottom: 10px;
+}
+
+/* Profile info  */
+
+.profile-info {
+    display: block;
+	position: relative;
+    text-align: center;
+    padding: 30px;
+    z-index: 1;
+    overflow: hidden; 
+    background: rgba(100, 100, 100, 0.11);
+}
+
+.profile-info h1 {
+    font-weight: 200;
+    font-size: 32px;
+    margin: 0;
+    padding: 0;
+}
+
+.profile-info h2 {
+    font-weight: 100;
+    font-size: 19px;
+    margin-top:5px;
+    margin-bottom: 0;
+}
+
+/* Profile bio */
+
+.profile-bio {
+    padding-top: 15px;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.profile-bio h1 {
+    font-weight: 200;
+    font-size: 32px;
+    margin-top: 15px;
+    padding: 0;
+}
+
+.profile-bio h2 {
+    font-weight: 100;
+    font-size: 19px;
+}
+
+/* Pills */
+
+.pill {
+    margin-left: 10px;
+    margin-bottom: 10px;
+    display: flex;
+	border-radius: 50px;
+	align-items: center;
+	justify-content: center;
+	padding: 4px;
+	position: relative;
+	height: 25px;
+    width: 120px;
+    background: rgba(100, 100, 100, 0.11);
+    font-size: 19px;  
+}
+
+.pills-wrapper {
+    padding-top:15px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;   
+}
+
